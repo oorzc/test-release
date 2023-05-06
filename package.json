@@ -68,7 +68,7 @@
     "dist:win64": "electron-builder --win --x64",
     "dist": "yarn dist:web && yarn dist:app",
     "release:web": "gh-pages -d build",
-    "release": "release-it"
+    "release": "DEBUG=release-it:* "
   },
   "browserslist": [
     ">0.2%",

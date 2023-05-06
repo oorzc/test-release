@@ -8,6 +8,7 @@
   },
   "github": {
     "release": true,
+    "draft": false,
     "releaseName": "v${version}",
     "assets": [
       "dist/*-mac.zip",

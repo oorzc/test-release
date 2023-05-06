@@ -1,6 +1,0 @@
-github:
-  release: true
-  assets:
-  - dist/*-mac.zip
-  - dist/*-win.exe
-  - dist/*-linux.deb
