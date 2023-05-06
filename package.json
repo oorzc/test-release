@@ -38,6 +38,8 @@
   "devDependencies": {
     "concurrently": "^5.0.1",
     "cypress": "^3.8.0",
+    "dotenv": "^16.0.3",
+    "dotenv-cli": "^7.2.1",
     "electron": "^7.1.4",
     "electron-builder": "^21.2.0",
     "gh-pages": "^2.1.1",
@@ -45,8 +47,8 @@
     "react-scripts": "3.3.0",
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
-    "typescript": "^3.7.3",
     "release-it": "^12.4.3",
+    "typescript": "^3.7.3",
     "wait-on": "^3.3.0"
   },
   "scripts": {
@@ -68,7 +70,7 @@
     "dist:win64": "electron-builder --win --x64",
     "dist": "yarn dist:web && yarn dist:app",
     "release:web": "gh-pages -d build",
-    "release": "release-it"
+    "release": "dotenv release-it"
   },
   "browserslist": [
     ">0.2%",
