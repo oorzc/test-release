@@ -81,3 +81,11 @@ yarn start
 <h4>商业定制，请在我的微信公众号下留言<h4>
 <img src="./assets/image/mp.jpg" width="200"/> 
 </div>
+
+
+保存你的 token，然后在项目根目录（package.json）的目录下创建一个 .env 文件，将其加在 .gitignore 里面（即最后加一行 .env，因为这是你的 github token 不要上传到互联网，否则有安全问题）
+内容为：
+GITHUB_TOKEN="你刚刚复制的 token"
+复制代码然后安装 dotenv-cli
+yarn add dotenv-cli --dev
+

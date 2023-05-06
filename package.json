@@ -70,7 +70,7 @@
     "dist:win64": "electron-builder --win --x64",
     "dist": "yarn dist:web && yarn dist:app",
     "release:web": "gh-pages -d build",
-    "release": "dotenv release-it"
+    "release": "dotenv release-it --"
   },
   "browserslist": [
     ">0.2%",
