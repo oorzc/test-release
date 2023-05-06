@@ -46,7 +46,7 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
     "typescript": "^3.7.3",
-    "release-it": "^15.10.3",
+    "release-it": "^12.4.3",
     "wait-on": "^3.3.0"
   },
   "scripts": {
@@ -68,7 +68,7 @@
     "dist:win64": "electron-builder --win --x64",
     "dist": "yarn dist:web && yarn dist:app",
     "release:web": "gh-pages -d build",
-    "release": "DEBUG=release-it:* release-it"
+    "release": "release-it"
   },
   "browserslist": [
     ">0.2%",
