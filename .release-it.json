@@ -11,8 +11,8 @@
     "draft": false,
     "releaseName": "v${version}",
     "assets": [
-      "dist/*-mac.zip",
-      "dist/*-win.exe"
+      "dist/*.zip",
+      "dist/*.exe"
     ]
   }
 }
