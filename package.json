@@ -1,20 +1,17 @@
 {
-  "name": "magpie-draw",
+  "name": "test-release",
   "version": "0.5.0",
   "main": "public/electron.js",
-  "author": {
-    "name": "Geekeren",
-    "url": "http://wangbaiyuan.cn",
-    "email": "wangbaiyuan@outlook.com"
-  },
+  "author": "oorzc",
   "description": "A lucky draw tool based on React, 基于React的炫酷的滚动抽奖程序",
   "repository": {
     "type": "git",
-    "url": "https://github.com/geekeren/Magpie-LuckyDraw.git"
+    "url": "https://github.com/oorzc/test-release.git"
   },
   "bugs": {
-    "url": "https://github.com/geekeren/Magpie-LuckyDraw/issues"
+    "url": "https://github.com/oorzc/test-release/issues"
   },
+  "npm": false,
   "homepage": "./",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
@@ -48,8 +45,8 @@
     "react-scripts": "3.3.0",
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
-    "release-it": "^12.4.3",
     "typescript": "^3.7.3",
+    "release-it": "^15.10.3",
     "wait-on": "^3.3.0"
   },
   "scripts": {
