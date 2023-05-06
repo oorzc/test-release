@@ -3,11 +3,15 @@
     "publish": false,
     "skipChecks": true
   },
+  "git": {
+    "push": false
+  },
   "github": {
     "release": true,
     "releaseName": "v${version}",
     "assets": [
-      "dist/*-mac.zip"
+      "dist/*-mac.zip",
+      "dist/*-win.exe"
     ]
   }
 }
