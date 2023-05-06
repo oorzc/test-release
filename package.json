@@ -1,6 +1,6 @@
 {
   "name": "test-release",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "main": "public/electron.js",
   "author": "oorzc",
   "description": "A lucky draw tool based on React, 基于React的炫酷的滚动抽奖程序",
